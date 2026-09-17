@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=LUG Helper
+Comment=Install and manage Star Citizen on Linux
+Exec=lug-helper
+Icon=lug-helper
+Terminal=true
+Categories=Game;
+Keywords=Star Citizen;StarCitizen;LUG;
+StartupNotify=true
