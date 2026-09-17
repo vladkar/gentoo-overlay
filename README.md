@@ -3,7 +3,7 @@
 Gentoo overlay for [LUG Helper](https://github.com/starcitizen-lug/lug-helper),
 the Star Citizen Linux installation and management tool.
 
-## Use
+## Install
 
 ```sh
 sudo eselect repository add star-overlay git \
@@ -15,7 +15,7 @@ sudo emerge --ask games-util/lug-helper
 Future updates are handled with normal repository synchronization and world
 updates.
 
-## Update the package
+## Update the repo (for maintainers)
 
 For a new upstream release, rename the ebuild to the upstream version and
 regenerate the Manifest:
