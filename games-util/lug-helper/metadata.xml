@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>vladkar@users.noreply.github.com</email>
+	</maintainer>
+	<longdescription lang="en">
+		The Linux Users Group Helper assists with installing, configuring,
+		updating, and troubleshooting Star Citizen on Linux. It manages Wine
+		runners, DXVK, launcher installation, and common system checks.
+	</longdescription>
+	<use>
+		<flag name="gui">
+			Install <pkg>gnome-extra/zenity</pkg> for graphical dialogs.
+		</flag>
+		<flag name="polkit">
+			Install <pkg>sys-auth/polkit</pkg> for graphical privilege elevation.
+		</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">starcitizen-lug/lug-helper</remote-id>
+		<bugs-to>https://github.com/starcitizen-lug/lug-helper/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
