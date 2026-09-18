@@ -7,7 +7,7 @@ the Star Citizen Linux installation and management tool.
 
 ```sh
 sudo eselect repository add star-overlay git \
-  https://github.com/vladkar/gentoo-overlay.git
+  https://github.com/vladkar/star-overlay.git
 sudo emaint sync -r star-overlay
 sudo emerge --ask games-util/lug-helper
 ```
